@@ -1,0 +1,9 @@
+[submodule "artifact/uc-risc-v"]
+	path = artifact/aimcore
+	url = git@github.com:PLSec-VU/uc-risc-v.git
+[submodule "artifact/pantomime"]
+	path = artifact/pantomime
+	url = git@github.com:PLSec-VU/pantomime.git
+[submodule "artifact/LeaVe"]
+	path = artifact/leave
+	url = https://github.com/zilongwang123/LeaVe
