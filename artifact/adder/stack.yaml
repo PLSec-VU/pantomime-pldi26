@@ -1,0 +1,8 @@
+resolver: lts-24.0
+
+packages:
+- .
+
+extra-deps:
+- ../pantomime
+- grisette-0.13.0.1@sha256:10c3078bfcfc6acdfc89fb321782a907ca34082cdb7f5cef1d5923c2c3b499b7,22407

@@ -1,0 +1,27 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.39.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           adder
+version:        0.1.0.0
+license:        BSD-3-Clause
+build-type:     Simple
+
+library
+  exposed-modules:
+      Adder
+  other-modules:
+      Paths_adder
+  autogen-modules:
+      Paths_adder
+  hs-source-dirs:
+      src
+  default-extensions:
+      DisambiguateRecordFields
+  ghc-options: -fexpose-all-unfoldings -fplugin Pantomime
+  build-depends:
+      base >=4.7 && <5
+    , pantomime
+  default-language: Haskell2010

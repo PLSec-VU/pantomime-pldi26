@@ -1,0 +1,19 @@
+name:                adder
+version:             0.1.0.0
+license:             BSD-3-Clause
+
+default-extensions:
+- DisambiguateRecordFields
+
+dependencies:
+- base >= 4.7 && < 5
+- pantomime
+
+ghc-options:
+- -fexpose-all-unfoldings
+- -fplugin Pantomime
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - Adder
